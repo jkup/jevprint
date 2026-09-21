@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "jevprint",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-09-20",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"],
+  },
+  "vars": { "LIVE_ANALYSIS": "false", "GATEWAY_ID": "jevprint" },
+  "env": {
+    "live": {
+      "vars": { "LIVE_ANALYSIS": "true", "GATEWAY_ID": "jevprint" },
+      "ai": { "binding": "AI", "remote": true },
+      "browser": { "binding": "BROWSER", "remote": true },
+    },
+  },
+  "observability": { "enabled": true, "head_sampling_rate": 0.1 },
+}

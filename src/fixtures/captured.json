@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "rfc",
+    "title": "A protocol for remembering",
+    "sourceType": "example",
+    "provenance": "captured",
+    "questionSetVersion": "1",
+    "createdAt": "2026-09-20T23:52:51.707Z",
+    "elapsedMs": 385,
+    "result": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "primary_mode": {
+          "type": "choice",
+          "choice": "informative",
+          "confidence": 0.76,
+          "probabilities": {
+            "other": 0.05,
+            "transactional": 0,
+            "informative": 0.8,
+            "narrative": 0,
+            "instructional": 0,
+            "persuasive": 0.15,
+            "conversational": 0,
+            "expressive": 0,
+            "reference": 0
+          }
+        },
+        "technical_density": {
+          "type": "score",
+          "score": 3.11,
+          "confidence": 0.62,
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0.17,
+            "3": 0.55,
+            "4": 0.28
+          },
+          "legend": {
+            "0": "Everyday language; no specialist terms",
+            "1": "A few terms are explained in context",
+            "2": "Several domain concepts assume familiarity",
+            "3": "Most paragraphs require domain expertise",
+            "4": "Dense specialist notation or terminology throughout"
+          }
+        },
+        "complexity": {
+          "type": "score",
+          "score": 3.09,
+          "confidence": 0.77,
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0.09,
+            "3": 0.73,
+            "4": 0.18
+          },
+          "legend": {
+            "0": "One simple idea",
+            "1": "A few independent ideas",
+            "2": "Several ideas with some dependencies",
+            "3": "Many linked ideas or qualifications",
+            "4": "Nested dependencies and interacting concepts throughout"
+          }
+        },
+        "abstraction": {
+          "type": "score",
+          "score": 2.51,
+          "confidence": 0.45,
+          "probabilities": {
+            "0": 0.03,
+            "1": 0.13,
+            "2": 0.23,
+            "3": 0.53,
+            "4": 0.08
+          },
+          "legend": {
+            "0": "Specific objects and observable events throughout",
+            "1": "Mostly concrete examples",
+            "2": "Concepts and examples in balance",
+            "3": "Mostly general concepts",
+            "4": "Conceptual relationships without concrete examples"
+          }
+        },
+        "specificity": {
+          "type": "score",
+          "score": 3.31,
+          "confidence": 0.64,
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0.06,
+            "3": 0.57,
+            "4": 0.37
+          },
+          "legend": {
+            "0": "Broad assertions without details",
+            "1": "Few concrete details",
+            "2": "Mix of general and precise claims",
+            "3": "Names, examples, or constraints support most claims",
+            "4": "Precise details or verifiable specifications throughout"
+          }
+        },
+        "emotional_intensity": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "Emotionally neutral wording",
+            "1": "Occasional emotional language",
+            "2": "Emotion is evident in several passages",
+            "3": "Strong emotion shapes most passages",
+            "4": "Intense emotion dominates throughout"
+          }
+        },
+        "certainty": {
+          "type": "score",
+          "score": 2.44,
+          "confidence": 0.62,
+          "probabilities": {
+            "0": 0,
+            "1": 0.01,
+            "2": 0.57,
+            "3": 0.39,
+            "4": 0.03
+          },
+          "legend": {
+            "0": "Explicit uncertainty throughout",
+            "1": "Frequent hedges and open questions",
+            "2": "Mixed tentative and definitive claims",
+            "3": "Mostly unqualified claims",
+            "4": "Categorical claims with no expressed doubt"
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 0.21,
+          "confidence": 0.82,
+          "probabilities": {
+            "0": 0.81,
+            "1": 0.17,
+            "2": 0.02,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "Timeless; no deadline",
+            "1": "A distant or weak time constraint",
+            "2": "A relevant upcoming time constraint",
+            "3": "An explicit near-term deadline",
+            "4": "Immediate action is explicitly required"
+          }
+        },
+        "actionability": {
+          "type": "score",
+          "score": 2.59,
+          "confidence": 0.65,
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0.4,
+            "3": 0.6,
+            "4": 0
+          },
+          "legend": {
+            "0": "No action suggested",
+            "1": "General implications but no steps",
+            "2": "Some practical suggestions",
+            "3": "Clear steps or next action",
+            "4": "Immediately executable steps with required details"
+          }
+        },
+        "novelty": {
+          "type": "score",
+          "score": 0.29,
+          "confidence": 0.76,
+          "probabilities": {
+            "0": 0.73,
+            "1": 0.27,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "Familiar framing without novelty claims",
+            "1": "Mostly conventional framing",
+            "2": "Some surprising connections",
+            "3": "Novelty or counterintuitive framing is prominent",
+            "4": "Unusual framing is central throughout"
+          }
+        },
+        "commercial_intent": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "No commercial context",
+            "1": "Incidental mention of a product",
+            "2": "Product benefits alongside other content",
+            "3": "Prominent sales pitch or conversion request",
+            "4": "Almost entirely aimed at a sale or conversion"
+          }
+        },
+        "persuasive": {
+          "type": "noul",
+          "noul": 0.31
+        },
+        "factual_claims": {
+          "type": "noul",
+          "noul": 0.63
+        },
+        "quantitative": {
+          "type": "noul",
+          "noul": 0.87
+        },
+        "personal_voice": {
+          "type": "noul",
+          "noul": 0.14
+        },
+        "exploratory": {
+          "type": "noul",
+          "noul": 0.77
+        }
+      },
+      "usage": {
+        "input_tokens": 1680,
+        "output_tokens": 342
+      }
+    },
+    "schemaVersion": "1",
+    "preprocessingVersion": "1",
+    "mappingVersion": "1",
+    "timings": {
+      "extractionMs": 0,
+      "modelMs": 385,
+      "totalMs": 385
+    }
+  },
+  {
+    "id": "letter",
+    "title": "The things I never sent",
+    "sourceType": "example",
+    "provenance": "captured",
+    "questionSetVersion": "1",
+    "createdAt": "2026-09-20T23:52:52.094Z",
+    "elapsedMs": 371,
+    "result": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "primary_mode": {
+          "type": "choice",
+          "choice": "expressive",
+          "confidence": 0.92,
+          "probabilities": {
+            "informative": 0,
+            "instructional": 0,
+            "narrative": 0,
+            "reference": 0,
+            "other": 0,
+            "conversational": 0.06,
+            "persuasive": 0,
+            "transactional": 0,
+            "expressive": 0.9400000000000001
+          }
+        },
+        "technical_density": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "Everyday language; no specialist terms",
+            "1": "A few terms are explained in context",
+            "2": "Several domain concepts assume familiarity",
+            "3": "Most paragraphs require domain expertise",
+            "4": "Dense specialist notation or terminology throughout"
+          }
+        },
+        "complexity": {
+          "type": "score",
+          "score": 2.56,
+          "confidence": 0.57,
+          "probabilities": {
+            "0": 0,
+            "1": 0.03,
+            "2": 0.43,
+            "3": 0.5,
+            "4": 0.04
+          },
+          "legend": {
+            "0": "One simple idea",
+            "1": "A few independent ideas",
+            "2": "Several ideas with some dependencies",
+            "3": "Many linked ideas or qualifications",
+            "4": "Nested dependencies and interacting concepts throughout"
+          }
+        },
+        "abstraction": {
+          "type": "score",
+          "score": 0.9,
+          "confidence": 0.6,
+          "probabilities": {
+            "0": 0.29,
+            "1": 0.52,
+            "2": 0.18,
+            "3": 0.01,
+            "4": 0
+          },
+          "legend": {
+            "0": "Specific objects and observable events throughout",
+            "1": "Mostly concrete examples",
+            "2": "Concepts and examples in balance",
+            "3": "Mostly general concepts",
+            "4": "Conceptual relationships without concrete examples"
+          }
+        },
+        "specificity": {
+          "type": "score",
+          "score": 2.07,
+          "confidence": 0.64,
+          "probabilities": {
+            "0": 0,
+            "1": 0.18,
+            "2": 0.58,
+            "3": 0.23,
+            "4": 0.01
+          },
+          "legend": {
+            "0": "Broad assertions without details",
+            "1": "Few concrete details",
+            "2": "Mix of general and precise claims",
+            "3": "Names, examples, or constraints support most claims",
+            "4": "Precise details or verifiable specifications throughout"
+          }
+        },
+        "emotional_intensity": {
+          "type": "score",
+          "score": 3.11,
+          "confidence": 0.8,
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0.06,
+            "3": 0.76,
+            "4": 0.18
+          },
+          "legend": {
+            "0": "Emotionally neutral wording",
+            "1": "Occasional emotional language",
+            "2": "Emotion is evident in several passages",
+            "3": "Strong emotion shapes most passages",
+            "4": "Intense emotion dominates throughout"
+          }
+        },
+        "certainty": {
+          "type": "score",
+          "score": 1.75,
+          "confidence": 0.69,
+          "probabilities": {
+            "0": 0.03,
+            "1": 0.25,
+            "2": 0.66,
+            "3": 0.06,
+            "4": 0
+          },
+          "legend": {
+            "0": "Explicit uncertainty throughout",
+            "1": "Frequent hedges and open questions",
+            "2": "Mixed tentative and definitive claims",
+            "3": "Mostly unqualified claims",
+            "4": "Categorical claims with no expressed doubt"
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "Timeless; no deadline",
+            "1": "A distant or weak time constraint",
+            "2": "A relevant upcoming time constraint",
+            "3": "An explicit near-term deadline",
+            "4": "Immediate action is explicitly required"
+          }
+        },
+        "actionability": {
+          "type": "score",
+          "score": 0.05,
+          "confidence": 0.96,
+          "probabilities": {
+            "0": 0.95,
+            "1": 0.05,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "No action suggested",
+            "1": "General implications but no steps",
+            "2": "Some practical suggestions",
+            "3": "Clear steps or next action",
+            "4": "Immediately executable steps with required details"
+          }
+        },
+        "novelty": {
+          "type": "score",
+          "score": 0.83,
+          "confidence": 0.31,
+          "probabilities": {
+            "0": 0.44,
+            "1": 0.31,
+            "2": 0.23,
+            "3": 0.02,
+            "4": 0
+          },
+          "legend": {
+            "0": "Familiar framing without novelty claims",
+            "1": "Mostly conventional framing",
+            "2": "Some surprising connections",
+            "3": "Novelty or counterintuitive framing is prominent",
+            "4": "Unusual framing is central throughout"
+          }
+        },
+        "commercial_intent": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "No commercial context",
+            "1": "Incidental mention of a product",
+            "2": "Product benefits alongside other content",
+            "3": "Prominent sales pitch or conversion request",
+            "4": "Almost entirely aimed at a sale or conversion"
+          }
+        },
+        "persuasive": {
+          "type": "noul",
+          "noul": 0.15
+        },
+        "factual_claims": {
+          "type": "noul",
+          "noul": 0.44
+        },
+        "quantitative": {
+          "type": "noul",
+          "noul": 0.09
+        },
+        "personal_voice": {
+          "type": "noul",
+          "noul": 0.9
+        },
+        "exploratory": {
+          "type": "noul",
+          "noul": 0.94
+        }
+      },
+      "usage": {
+        "input_tokens": 1681,
+        "output_tokens": 342
+      }
+    },
+    "schemaVersion": "1",
+    "preprocessingVersion": "1",
+    "mappingVersion": "1",
+    "timings": {
+      "extractionMs": 0,
+      "modelMs": 371,
+      "totalMs": 371
+    }
+  },
+  {
+    "id": "product",
+    "title": "Less noise. More signal.",
+    "sourceType": "example",
+    "provenance": "captured",
+    "questionSetVersion": "1",
+    "createdAt": "2026-09-20T23:52:52.415Z",
+    "elapsedMs": 308,
+    "result": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "primary_mode": {
+          "type": "choice",
+          "choice": "transactional",
+          "confidence": 0.95,
+          "probabilities": {
+            "conversational": 0,
+            "other": 0,
+            "persuasive": 0.05,
+            "expressive": 0,
+            "instructional": 0,
+            "narrative": 0,
+            "transactional": 0.95,
+            "informative": 0,
+            "reference": 0
+          }
+        },
+        "technical_density": {
+          "type": "score",
+          "score": 0.56,
+          "confidence": 0.54,
+          "probabilities": {
+            "0": 0.62,
+            "1": 0.2,
+            "2": 0.18,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "Everyday language; no specialist terms",
+            "1": "A few terms are explained in context",
+            "2": "Several domain concepts assume familiarity",
+            "3": "Most paragraphs require domain expertise",
+            "4": "Dense specialist notation or terminology throughout"
+          }
+        },
+        "complexity": {
+          "type": "score",
+          "score": 1.84,
+          "confidence": 0.72,
+          "probabilities": {
+            "0": 0,
+            "1": 0.24,
+            "2": 0.68,
+            "3": 0.08,
+            "4": 0
+          },
+          "legend": {
+            "0": "One simple idea",
+            "1": "A few independent ideas",
+            "2": "Several ideas with some dependencies",
+            "3": "Many linked ideas or qualifications",
+            "4": "Nested dependencies and interacting concepts throughout"
+          }
+        },
+        "abstraction": {
+          "type": "score",
+          "score": 1.69,
+          "confidence": 0.35,
+          "probabilities": {
+            "0": 0.05,
+            "1": 0.44,
+            "2": 0.3,
+            "3": 0.21,
+            "4": 0
+          },
+          "legend": {
+            "0": "Specific objects and observable events throughout",
+            "1": "Mostly concrete examples",
+            "2": "Concepts and examples in balance",
+            "3": "Mostly general concepts",
+            "4": "Conceptual relationships without concrete examples"
+          }
+        },
+        "specificity": {
+          "type": "score",
+          "score": 2.39,
+          "confidence": 0.66,
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0.63,
+            "3": 0.33,
+            "4": 0.04
+          },
+          "legend": {
+            "0": "Broad assertions without details",
+            "1": "Few concrete details",
+            "2": "Mix of general and precise claims",
+            "3": "Names, examples, or constraints support most claims",
+            "4": "Precise details or verifiable specifications throughout"
+          }
+        },
+        "emotional_intensity": {
+          "type": "score",
+          "score": 0.71,
+          "confidence": 0.65,
+          "probabilities": {
+            "0": 0.35,
+            "1": 0.59,
+            "2": 0.06,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "Emotionally neutral wording",
+            "1": "Occasional emotional language",
+            "2": "Emotion is evident in several passages",
+            "3": "Strong emotion shapes most passages",
+            "4": "Intense emotion dominates throughout"
+          }
+        },
+        "certainty": {
+          "type": "score",
+          "score": 3.97,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0.02,
+            "4": 0.98
+          },
+          "legend": {
+            "0": "Explicit uncertainty throughout",
+            "1": "Frequent hedges and open questions",
+            "2": "Mixed tentative and definitive claims",
+            "3": "Mostly unqualified claims",
+            "4": "Categorical claims with no expressed doubt"
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 2.96,
+          "confidence": 0.97,
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0.04,
+            "3": 0.96,
+            "4": 0
+          },
+          "legend": {
+            "0": "Timeless; no deadline",
+            "1": "A distant or weak time constraint",
+            "2": "A relevant upcoming time constraint",
+            "3": "An explicit near-term deadline",
+            "4": "Immediate action is explicitly required"
+          }
+        },
+        "actionability": {
+          "type": "score",
+          "score": 3.23,
+          "confidence": 0.79,
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0.01,
+            "3": 0.75,
+            "4": 0.24
+          },
+          "legend": {
+            "0": "No action suggested",
+            "1": "General implications but no steps",
+            "2": "Some practical suggestions",
+            "3": "Clear steps or next action",
+            "4": "Immediately executable steps with required details"
+          }
+        },
+        "novelty": {
+          "type": "score",
+          "score": 0.46,
+          "confidence": 0.62,
+          "probabilities": {
+            "0": 0.57,
+            "1": 0.4,
+            "2": 0.02,
+            "3": 0.01,
+            "4": 0
+          },
+          "legend": {
+            "0": "Familiar framing without novelty claims",
+            "1": "Mostly conventional framing",
+            "2": "Some surprising connections",
+            "3": "Novelty or counterintuitive framing is prominent",
+            "4": "Unusual framing is central throughout"
+          }
+        },
+        "commercial_intent": {
+          "type": "score",
+          "score": 3.98,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0.02,
+            "4": 0.98
+          },
+          "legend": {
+            "0": "No commercial context",
+            "1": "Incidental mention of a product",
+            "2": "Product benefits alongside other content",
+            "3": "Prominent sales pitch or conversion request",
+            "4": "Almost entirely aimed at a sale or conversion"
+          }
+        },
+        "persuasive": {
+          "type": "noul",
+          "noul": 0.92
+        },
+        "factual_claims": {
+          "type": "noul",
+          "noul": 0.88
+        },
+        "quantitative": {
+          "type": "noul",
+          "noul": 0.88
+        },
+        "personal_voice": {
+          "type": "noul",
+          "noul": 0.25
+        },
+        "exploratory": {
+          "type": "noul",
+          "noul": 0.06
+        }
+      },
+      "usage": {
+        "input_tokens": 1668,
+        "output_tokens": 342
+      }
+    },
+    "schemaVersion": "1",
+    "preprocessingVersion": "1",
+    "mappingVersion": "1",
+    "timings": {
+      "extractionMs": 0,
+      "modelMs": 308,
+      "totalMs": 308
+    }
+  },
+  {
+    "id": "essay",
+    "title": "Where does a thought end?",
+    "sourceType": "example",
+    "provenance": "captured",
+    "questionSetVersion": "1",
+    "createdAt": "2026-09-20T23:52:52.721Z",
+    "elapsedMs": 296,
+    "result": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "primary_mode": {
+          "type": "choice",
+          "choice": "expressive",
+          "confidence": 1,
+          "probabilities": {
+            "informative": 0,
+            "expressive": 1,
+            "reference": 0,
+            "transactional": 0,
+            "conversational": 0,
+            "instructional": 0,
+            "narrative": 0,
+            "persuasive": 0,
+            "other": 0
+          }
+        },
+        "technical_density": {
+          "type": "score",
+          "score": 0.35,
+          "confidence": 0.71,
+          "probabilities": {
+            "0": 0.8,
+            "1": 0.06,
+            "2": 0.14,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "Everyday language; no specialist terms",
+            "1": "A few terms are explained in context",
+            "2": "Several domain concepts assume familiarity",
+            "3": "Most paragraphs require domain expertise",
+            "4": "Dense specialist notation or terminology throughout"
+          }
+        },
+        "complexity": {
+          "type": "score",
+          "score": 3.27,
+          "confidence": 0.65,
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0.08,
+            "3": 0.57,
+            "4": 0.35
+          },
+          "legend": {
+            "0": "One simple idea",
+            "1": "A few independent ideas",
+            "2": "Several ideas with some dependencies",
+            "3": "Many linked ideas or qualifications",
+            "4": "Nested dependencies and interacting concepts throughout"
+          }
+        },
+        "abstraction": {
+          "type": "score",
+          "score": 3.73,
+          "confidence": 0.78,
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0.27,
+            "4": 0.73
+          },
+          "legend": {
+            "0": "Specific objects and observable events throughout",
+            "1": "Mostly concrete examples",
+            "2": "Concepts and examples in balance",
+            "3": "Mostly general concepts",
+            "4": "Conceptual relationships without concrete examples"
+          }
+        },
+        "specificity": {
+          "type": "score",
+          "score": 0.12,
+          "confidence": 0.9,
+          "probabilities": {
+            "0": 0.89,
+            "1": 0.11,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "Broad assertions without details",
+            "1": "Few concrete details",
+            "2": "Mix of general and precise claims",
+            "3": "Names, examples, or constraints support most claims",
+            "4": "Precise details or verifiable specifications throughout"
+          }
+        },
+        "emotional_intensity": {
+          "type": "score",
+          "score": 0.57,
+          "confidence": 0.53,
+          "probabilities": {
+            "0": 0.51,
+            "1": 0.41,
+            "2": 0.08,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "Emotionally neutral wording",
+            "1": "Occasional emotional language",
+            "2": "Emotion is evident in several passages",
+            "3": "Strong emotion shapes most passages",
+            "4": "Intense emotion dominates throughout"
+          }
+        },
+        "certainty": {
+          "type": "score",
+          "score": 0.97,
+          "confidence": 0.88,
+          "probabilities": {
+            "0": 0.09,
+            "1": 0.86,
+            "2": 0.05,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "Explicit uncertainty throughout",
+            "1": "Frequent hedges and open questions",
+            "2": "Mixed tentative and definitive claims",
+            "3": "Mostly unqualified claims",
+            "4": "Categorical claims with no expressed doubt"
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "Timeless; no deadline",
+            "1": "A distant or weak time constraint",
+            "2": "A relevant upcoming time constraint",
+            "3": "An explicit near-term deadline",
+            "4": "Immediate action is explicitly required"
+          }
+        },
+        "actionability": {
+          "type": "score",
+          "score": 0.23,
+          "confidence": 0.81,
+          "probabilities": {
+            "0": 0.77,
+            "1": 0.23,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "No action suggested",
+            "1": "General implications but no steps",
+            "2": "Some practical suggestions",
+            "3": "Clear steps or next action",
+            "4": "Immediately executable steps with required details"
+          }
+        },
+        "novelty": {
+          "type": "score",
+          "score": 3.72,
+          "confidence": 0.77,
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0.02,
+            "3": 0.23,
+            "4": 0.75
+          },
+          "legend": {
+            "0": "Familiar framing without novelty claims",
+            "1": "Mostly conventional framing",
+            "2": "Some surprising connections",
+            "3": "Novelty or counterintuitive framing is prominent",
+            "4": "Unusual framing is central throughout"
+          }
+        },
+        "commercial_intent": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "legend": {
+            "0": "No commercial context",
+            "1": "Incidental mention of a product",
+            "2": "Product benefits alongside other content",
+            "3": "Prominent sales pitch or conversion request",
+            "4": "Almost entirely aimed at a sale or conversion"
+          }
+        },
+        "persuasive": {
+          "type": "noul",
+          "noul": 0.33
+        },
+        "factual_claims": {
+          "type": "noul",
+          "noul": 0.32
+        },
+        "quantitative": {
+          "type": "noul",
+          "noul": 0.03
+        },
+        "personal_voice": {
+          "type": "noul",
+          "noul": 0.74
+        },
+        "exploratory": {
+          "type": "noul",
+          "noul": 0.97
+        }
+      },
+      "usage": {
+        "input_tokens": 1684,
+        "output_tokens": 342
+      }
+    },
+    "schemaVersion": "1",
+    "preprocessingVersion": "1",
+    "mappingVersion": "1",
+    "timings": {
+      "extractionMs": 0,
+      "modelMs": 296,
+      "totalMs": 296
+    }
+  }
+]
